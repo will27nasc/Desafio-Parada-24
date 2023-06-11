@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="shortcut icon" href="img/termi.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
+    <script src="js/script.js" defer></script>
+    <title>Conversor de temperatura</title>
+</head>
+<body>
+    <div class="container">
+        <div class="box-temp">
+            <div class="box">
+                <h1>Conversor de temperatura</h1>
+                <div class="box-input">
+                    <label>
+                        Digite a temperatura em Celsius:
+                        <div class="lupa">
+                            <input type="text" onchange="compiladorTemp(this.value)" onkeyup="press()">
+                            &#x1F321;
+                        </div>
+                    </label>
+                </div><!--box-input-->
+                <p></p>
+            </div><!--box-->
+        </div><!--box-temp-->
+    </div><!--container-->
+</body>
+</html>
